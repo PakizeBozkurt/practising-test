@@ -13,6 +13,8 @@ Best Practices for Test Driven Development (TDD) Test-driven development (TDD) i
 
 
 # AAA - Arrange, Act, Assert
+
+- Arrange: Define the testing environment & values
 ## Feel free to contribute, feature and bug reports.
 
 ### Happy testing!
