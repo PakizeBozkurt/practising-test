@@ -17,6 +17,8 @@ Best Practices for Test Driven Development (TDD) Test-driven development (TDD) i
 - Arrange: Define the testing environment & values
 
 - Act: Run the actual code / function that should be tested
+
+- Assert: Evaluate the produced value / result and compare it to the expected value / result
 ## Feel free to contribute, feature and bug reports.
 
 ### Happy testing!
