@@ -1,6 +1,7 @@
-import { it } from 'vitest';
+import { it, expect } from 'vitest';
 import { add } from './math';
 
-import('should summarise all number values in an array', () => {
+it('should summarise all number values in an array', () => {
     const result = add([1, 2, 3]);
+    expect(result).toBe(6);
 });
