@@ -8,5 +8,6 @@ it('should summarise all number values in an array', () => {
     // Act
     const result = add(numbers);
     
+    // Assert
     expect(result).toBe(6);
 });
