@@ -3,7 +3,7 @@ import { add } from './math';
 
 it('should summarise all number values in an array', () => {
     // Arrange
-    const numbers = [1, 2];
+    const numbers = [1, 2, 3];
     
     
     // Act
@@ -11,6 +11,7 @@ it('should summarise all number values in an array', () => {
     
     // Assert
     const expectResult = numbers.reduce(
+
       (preValue, curValue) => preValue + curValue,
       0
     );
