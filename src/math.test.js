@@ -28,3 +28,5 @@ it('should yield NaN if a least one invalid number is provided', () => {
   //Assert 
   expect(result).toBeNaN();
 });
+
+it('should yield a correct sum if an array of numeric string values is provided', () => {});
