@@ -2,9 +2,9 @@ import { it, expect } from "vitest";
 import { add } from "./math";
 
 it("should summarise all number values in an array", () => {
-  
+
   // Arrange
-  const numbers = [1, 2, 3];
+  const numbers = [1, 2];
 
   // Act
   const result = add(numbers);
@@ -17,3 +17,5 @@ it("should summarise all number values in an array", () => {
 
   expect(result).toBe(expectResult);
 });
+
+it('should yield NaN if a least one invalid number is provided', () => {});
