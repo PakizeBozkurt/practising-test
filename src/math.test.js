@@ -60,5 +60,9 @@ it("should throw an error if provided with multiple arguments instead of an arra
   const num1 = 1;
   const num2 = 2;
 
+  const resultFn = () => {
+    add(num1, num2);
+  };
 
+  
 });
