@@ -17,3 +17,9 @@ it("should yield NaN for non-transformable values", () => {
 
   expect(result).toBeNaN("number");
 });
+
+it("should transform '0' string to the number 0", () => {
+  const input = "0";
+  const result = transformToNumber(input);
+  expect(result).toBe(0);
+});
