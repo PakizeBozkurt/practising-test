@@ -9,3 +9,7 @@ it('should transform a string number to a number of type number', () => {
 
     expect(result).toBeTypeOf('number');
 });
+
+it('should yield NaN for non-transformable values', () => {
+
+});
