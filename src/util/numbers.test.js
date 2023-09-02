@@ -15,15 +15,18 @@ it("should transform a string number to a number of type number", () => {
 
   const result = transformToNumber(input);
 
-  expect(result).toBeTypeOf(+input);
+  expect(result).toBe(+input);
 });
 
 it("should yield NaN for non-transformable values", () => {
   const input = "invalid";
+  const input2 = {};
 
   const result = transformToNumber(input);
+  const result2 = transformToNumber(input2);
 
   expect(result).toBeNaN("number");
+  expect(result2).toBeNaN("number");
 });
 
 it("should transform '0' string to the number 0", () => {
