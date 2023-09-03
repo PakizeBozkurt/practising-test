@@ -15,3 +15,8 @@ it("should throw an error, if a non-numeric value is provided", () => {
   expect(validationFn).toThrow();
 });
 
+it("should throw an error, if a number is provided", () => {
+  const input = 1;
+  const validationFn = () => validateNumber(input);
+  expect(validationFn).not.toThrow();
+});
