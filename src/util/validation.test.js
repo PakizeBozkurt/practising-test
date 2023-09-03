@@ -8,3 +8,10 @@ it('should throw an error, if an empty string is provided', () => {
     expect(validationFn).toThrow();
 
 });
+
+it("should throw an error, if a non-numeric value is provided", () => {
+  const input = '1';
+  const validationFn = () => validateNumber(input);
+  expect(validationFn).toThrow();
+});
+
