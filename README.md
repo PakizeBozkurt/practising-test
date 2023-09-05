@@ -21,6 +21,7 @@ Best Practices for Test Driven Development (TDD) Test-driven development (TDD) i
 
 - Assert: Evaluate the produced value / result and compare it to the expected value / result
 
+  -Do clean test!
 
 ## Feel free to contribute, feature and bug reports.
 
